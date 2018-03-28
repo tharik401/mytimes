@@ -1,3 +1,6 @@
+body{
+  margin: 0px;
+}
 header{
   display: flex;
   background-color: white;
@@ -133,7 +136,33 @@ nav span{
 }
 footer{
   margin-top: 70px;
-  height: 300px;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: MediumAquamarine;
+  height: 300px;
+  font-family: Verdana;
+  font-size: 12px;
+}
+.info {
+  display: flex;
+  align-items: center;
+}
+footer .title{
+  display: flex;
+  align-items: center;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  height: 20px;
+  padding-right: 21px;
+}
+.footernav{
+  padding-left: 25px;
+}
+.footernav a{
+  color: black;
 }
