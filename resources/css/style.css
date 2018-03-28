@@ -12,6 +12,9 @@ header{
   font-weight: bold;
 
 }
+header a{
+  color: MediumAquamarine; 
+}
 .logo{
   display: flex;
   align-items: center;
@@ -54,6 +57,8 @@ nav span{
 
 .imagemain{
   display: flex;
+  text-align: center;
+  align-items: center;
   height: 300px;
   background-image:url("../../resources/images/img-story-main.png");
   font-family: Georgia;
@@ -64,17 +69,14 @@ nav span{
 
 .stories{
   display: flex;
-
-
-
 }
 .history{
-  align-self: center;
+  display: block;
   width: 300px;
   margin: 0 auto;
 
 }
-.text{
+.text p{
   font-family: Georgia;
   font-size: 17px;
   color: black;
@@ -85,22 +87,25 @@ nav span{
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
+
 }
 
 .imageback{
-    margin-top: 15px;
-    background-image:url("../../resources/images/imageback.png");
-    height: 300px;
+  display: flex;
+  align-items: center;
+  background-image:url("../../resources/images/imageback.png");
+  height: 300px;
   }
 .imagecamera{
-    margin-top: 15px;
-    background-image:url("../../resources/images/imagecamera.png");
-    height: 300px;
+  display: flex;
+  align-items: center;
+  background-image:url("../../resources/images/imagecamera.png");
+  height: 300px;
   }
-  .imagecat{
-    margin-top: 15px;
-    background-image:url("../../resources/images/imagecat.png");
-    height: 300px;
-  }
-
+.imagecat{
+  display: flex;
+  align-items: center;
+  background-image:url("../../resources/images/imagecat.png");
+  height: 300px;
 }
