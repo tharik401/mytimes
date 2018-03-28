@@ -21,7 +21,6 @@ header a{
 .logo{
   display: flex;
   align-items: center;
-  border: 1px solid black;
   flex-grow: 1;
   padding-left: 30px;
   color: MediumAquamarine;
@@ -54,10 +53,6 @@ nav span{
   flex-direction: column;
   width: 240px;
 }
-.narrative{
-  border: 1px solid black;
-}
-
 .imagemain{
   display: flex;
   text-align: center;
