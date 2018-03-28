@@ -36,7 +36,6 @@ nav span{
 }
 .content{
   display: flex;
-  border: 1px solid black;
   padding-top: 116px;
   margin: 0 15px;
 }
@@ -70,11 +69,11 @@ nav span{
 
 .stories{
   display: flex;
+  justify-content: space-between;
 }
 .history{
   display: block;
   width: 300px;
-  margin: 0 auto;
 
 }
 .text p{
@@ -131,4 +130,10 @@ nav span{
   border-bottom: 1px solid black;
   padding: 11px 20px;
   text-align: justify;
+}
+footer{
+  margin-top: 70px;
+  height: 300px;
+  width: 100%;
+  background-color: MediumAquamarine;
 }
