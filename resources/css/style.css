@@ -1,3 +1,4 @@
+/* body and header */
 body{
   margin: 0px;
 }
@@ -15,6 +16,7 @@ header{
   font-weight: bold;
 
 }
+  /* header config */
   header a{
     color: MediumAquamarine;
   }
@@ -36,11 +38,13 @@ header{
   display: inline-block;
   padding: 20px 10px;
   }
+/* main content */
 .content{
   display: flex;
   padding-top: 116px;
   margin: 0 15px;
 }
+  /* First main column */
   .column.large{
     width: 630px;
   }
@@ -55,10 +59,12 @@ header{
       font-size: 40px;
       color: white;
     }
+    /* div with 2 columns */
     .stories{
       display: flex;
       justify-content: space-between;
     }
+    /* config each column */
       .history{
         display: block;
         width: 300px;
@@ -68,27 +74,30 @@ header{
           font-size: 17px;
           color: black;
         }
-        .imageback{
-          display: flex;
-          align-items: center;
-          background-image:url("../../resources/images/imageback.png");
-          height: 300px;
-          }
-          .imagespan{
-            font-family: Georgia;
-            font-weight: bold;
-            font-size: 30px;
-            color: white;
-            text-align: center;
-          }
-        .imagecamera{
-          display: flex;
-          align-items: center;
-          background-image:url("../../resources/images/imagecamera.png");
-          height: 300px;
-          }
+      /* image woods */
+      .imageback{
+        display: flex;
+        align-items: center;
+        background-image:url("../../resources/images/imageback.png");
+        height: 300px;
+      }
+      /* image camera */
+      .imagecamera{
+        display: flex;
+        align-items: center;
+        background-image:url("../../resources/images/imagecamera.png");
+        height: 300px;
+      }
+        .imagespan{
+          font-family: Georgia;
+          font-weight: bold;
+          font-size: 30px;
+          color: white;
+          text-align: center;
+        }
 
 
+  /* Second main column */
   .column.medium{
     width: 300px;
     margin: 0 50px;
@@ -99,11 +108,13 @@ header{
      background-image:url("../../resources/images/imagecat.png");
      height: 300px;
    }
+  /* Third main column */
   .column.small{
     display: flex;
     flex-direction: column;
     width: 240px;
   }
+  /* last block */
   .bites{
     text-align: center;
 
@@ -125,7 +136,7 @@ header{
           text-align: justify;
         }
 
-
+/* footer */
 footer{
   margin-top: 70px;
   display: flex;
